@@ -92,10 +92,10 @@
         <section id="contact" class="contact">
             <div>
                 <h2>Contact</h2>
-                <form class="form" data-netlify="true">
-                    <input type="text" placeholder="Name" class="name"required>
-                    <input type="email" placeholder="Email" class="email" required>
-                    <textarea placeholder="Message" class="message" required></textarea>
+                <form name="contact" method="POST" class="form" data-netlify="true">
+                    <input type="text" name="name" placeholder="Name" class="name" required>
+                    <input type="email" name="email" placeholder="Email" class="email" required>
+                    <textarea name="message" placeholder="Message" class="message" required></textarea>
                     <a type="submit" value="SEND" class="btn">Send</a>
                 </form>
             </div>
